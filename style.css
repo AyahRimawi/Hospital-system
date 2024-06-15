@@ -1,18 +1,19 @@
      .navbar {
         background-color: #63c1bc;
-        overflow: hidden;
-    }
+        overflow: hidden;}
+
     #img0{
         width: 60px;
         height: 60px;
-        margin-left: 30px;
-    }
+        margin-left: 30px;}
+
     #form{    
-        width: 20%;
-        padding-left: 50px;
+        width: auto;
+        margin: 0 0 auto;
+        padding-left: 40px;
         padding-top: 5px;
-        box-shadow:  4px 4px 4px 4px rgb(99, 193, 188,0.4);
-    }
+        box-shadow:  4px 4px 4px 4px rgb(99, 193, 188,0.4);}
+
     .navbar a {
         float: right;
         display: block;
@@ -22,21 +23,27 @@
         text-decoration: none;
         font-size: 15px;
         margin-top: 10px;
-        margin-right: 20px;
-        
-    }
+        margin-right: 20px;}
 
     .navbar a:hover {
         background-color: #bce6e4;
-        color: black;
-    }
+        color: black;}
 
     /* CSS for Form Section */
     .form-section {
         padding: 50px;
-        text-align: center;
-    }
+        padding-left: 4px;
 
+        text-align: center;}
+
+    #patients-card {
+        display: flex; 
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: initial; 
+        box-shadow:  4px 4px 4px 4px rgb(99, 193, 188,0.4);
+        margin-left: 20px;
+        height: 1000px }
   
     /* CSS for Footer */
     footer {
@@ -47,24 +54,22 @@
         position: fixed;
         bottom: 0;
         width: 100%;
-       background-color: #63c1bc;
+       background-color: #63c1bc;}
 
+
+       input[type="password"].valid-upper {
+        border-color: green; /* لون الحدود الأخضر للحرف الكبير */
     }
-
-
-
-
-    #patients-card {
-        display: flex; 
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: initial; 
-        box-shadow:  4px 4px 4px 4px rgb(99, 193, 188,0.4);
-    margin-left: 20px;
-height: 1000px }
     
-
+    input[type="password"].valid-digit {
+        border-color: green; /* لون الحدود الأخضر للرقم */
+    }
     
-
-
+    input[type="password"].valid-special {
+        border-color: green; /* لون الحدود الأخضر للحرف الخاص */
+    }
+    
+    input[type="password"].invalid {
+        border-color: red; /* لون الحدود الأحمر للحالات الغير صالحة */
+    }
     
