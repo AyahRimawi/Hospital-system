@@ -1,0 +1,71 @@
+     /* CSS for Navbar */
+     .navbar {
+        background-color: #63c1bc;
+        overflow: hidden;
+    }
+    #img0{
+        width: 60px;
+        height: 60px;
+        margin-left: 30px;
+    }
+    #form{    
+        width: 20%;
+        padding-left: 50px;
+        padding-top: 5px;
+        box-shadow:  4px 4px 4px 4px rgb(99, 193, 188,0.4);
+    }
+    .navbar a {
+        float: right;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-right: 20px;
+        
+    }
+
+    .navbar a:hover {
+        background-color: #bce6e4;
+        color: black;
+    }
+
+    /* CSS for Form Section */
+    .form-section {
+        padding: 50px;
+        text-align: center;
+    }
+
+  
+    /* CSS for Footer */
+    footer {
+       margin-top: 100px;
+        color: #ffffff;
+        text-align: center;
+        padding: 5px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+       background-color: #63c1bc;
+
+    }
+
+
+
+
+    #patients-card {
+        display: flex; 
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: initial; 
+        box-shadow:  4px 4px 4px 4px rgb(99, 193, 188,0.4);
+    margin-left: 20px;
+height: 1000px }
+    
+
+    
+
+
+    
