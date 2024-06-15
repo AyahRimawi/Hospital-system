@@ -1,4 +1,4 @@
-let array = []; // يجب عليك إضافة هذا السطر إذا لم يكن موجودًا بالفعل في كودك
+let array = [];
 
 function Person(FullName, gender, birthday, phone, email, diseases) {
     this.FullName = FullName;
@@ -11,7 +11,7 @@ function Person(FullName, gender, birthday, phone, email, diseases) {
 function render(event) {
     event.preventDefault();
     let patientForm = event.target;
-    let FullName = patientForm.elements["FullName"].value.replace(/\s/g, ''); // إزالة المسافات من FullName
+    let FullName = patientForm.elements["FullName"].value.replace(/\s/g, '');
     let gender = patientForm.elements["gender"].value;
     let birthday = patientForm.elements["birthday"].value;
     let phone = patientForm.elements["phone"].value;
